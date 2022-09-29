@@ -246,12 +246,13 @@ def get_list_tuple(list_languages, list_numbers):
 
 def filter(list_tuple):
     '''
-    
+    Функция принимает на вход список кортежей и формирует новый список кортежей, удовлетворяющих условию: если сумма очков слова имеет в делителях номер, 
+    с которым она в паре в кортеже, то кортеж остается, его номер заменяется на сумму очков.
     '''
     new_list_1 = []
     new_list_2 = []
     for i in list_tuple:
-        languages, num = i
+        num, languages = i
         sum = 0
         for j in languages:
             sum += ord(j)
