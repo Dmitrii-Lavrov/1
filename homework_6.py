@@ -1,4 +1,4 @@
-# from math import sqrt
+from math import sqrt
 
 import re
  
@@ -88,12 +88,12 @@ import re
 
 #  Найти произведение пар чисел в списке. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
  
-import math
-list_num =[1, 2, 3, 4, 5, 6, 7, 8]
-prod_list = []
-for i in range(math.ceil(len(list_num)/2)):
-    prod_list.append(list_num[i] * list_num[-i-1])
-print(prod_list)
+# import math
+# list_num =[1, 2, 3, 4, 5, 6, 7, 8]
+# prod_list = []
+# for i in range(math.ceil(len(list_num)/2)):
+#     prod_list.append(list_num[i] * list_num[-i-1])
+# print(prod_list)
 
 
 
@@ -103,6 +103,6 @@ print(prod_list)
 # Сформировать список из N членов последовательности.
 # Для N = 5: 1, -3, 9, -27, 81 и т.д.
 
-# N = 5
-# data = [(-3)**i for i in range(N)] 
-# print(data)
+N = 5
+data = [(-3)**i for i in range(N)] 
+print(data)
