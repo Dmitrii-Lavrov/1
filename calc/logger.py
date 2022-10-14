@@ -13,5 +13,5 @@ def logger(x, y, operation, result):
         k = '-'
     strok = ''
     strok = strok + str(time) + '    ' + str(x) + ' ' + k + ' ' + str(y) + ' = ' + str(result) 
-    with open('log.txt', 'a') as file:
+    with open('log_calc.txt', 'a') as file:
         file.write(strok +'\n')
