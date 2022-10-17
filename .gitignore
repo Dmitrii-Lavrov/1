@@ -1,0 +1,10 @@
+*.pdf
+*.txt
+*.csv
+*.json
+*.pptx
+*.xml
+/venv
+/.folder
+/.idea
+**/config.py
